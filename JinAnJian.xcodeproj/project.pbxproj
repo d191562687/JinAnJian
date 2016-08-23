@@ -20,6 +20,7 @@
 		F14CC44E1D6C4F33001CCEBF /* Model in Resources */ = {isa = PBXBuildFile; fileRef = F14CC44A1D6C4F33001CCEBF /* Model */; };
 		F14CC44F1D6C4F33001CCEBF /* Other in Resources */ = {isa = PBXBuildFile; fileRef = F14CC44B1D6C4F33001CCEBF /* Other */; };
 		F14CC4501D6C4F33001CCEBF /* Views in Resources */ = {isa = PBXBuildFile; fileRef = F14CC44C1D6C4F33001CCEBF /* Views */; };
+		F1D99A7C1D6C54B1008687B9 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D99A7B1D6C54B1008687B9 /* MineViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		F14CC44A1D6C4F33001CCEBF /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = SOURCE_ROOT; };
 		F14CC44B1D6C4F33001CCEBF /* Other */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Other; sourceTree = SOURCE_ROOT; };
 		F14CC44C1D6C4F33001CCEBF /* Views */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Views; sourceTree = SOURCE_ROOT; };
+		F1D99A7A1D6C54B1008687B9 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MineViewController.h; path = Controller/Mine/MineViewController.h; sourceTree = SOURCE_ROOT; };
+		F1D99A7B1D6C54B1008687B9 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MineViewController.m; path = Controller/Mine/MineViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +141,8 @@
 				F14CC44B1D6C4F33001CCEBF /* Other */,
 				F14CC44C1D6C4F33001CCEBF /* Views */,
 				F113D9B81D6C259500914925 /* Supporting Files */,
+				F1D99A7A1D6C54B1008687B9 /* MineViewController.h */,
+				F1D99A7B1D6C54B1008687B9 /* MineViewController.m */,
 			);
 			path = JinAnJian;
 			sourceTree = "<group>";
@@ -364,6 +369,7 @@
 				F113D9C01D6C259500914925 /* ViewController.m in Sources */,
 				F113D9BD1D6C259500914925 /* AppDelegate.m in Sources */,
 				F113D9BA1D6C259500914925 /* main.m in Sources */,
+				F1D99A7C1D6C54B1008687B9 /* MineViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
