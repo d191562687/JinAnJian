@@ -16,6 +16,10 @@
 		F113D9C81D6C259500914925 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F113D9C61D6C259500914925 /* LaunchScreen.storyboard */; };
 		F113D9D31D6C259500914925 /* JinAnJianTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F113D9D21D6C259500914925 /* JinAnJianTests.m */; };
 		F113D9DE1D6C259500914925 /* JinAnJianUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F113D9DD1D6C259500914925 /* JinAnJianUITests.m */; };
+		F14CC44D1D6C4F33001CCEBF /* Controller in Resources */ = {isa = PBXBuildFile; fileRef = F14CC4491D6C4F33001CCEBF /* Controller */; };
+		F14CC44E1D6C4F33001CCEBF /* Model in Resources */ = {isa = PBXBuildFile; fileRef = F14CC44A1D6C4F33001CCEBF /* Model */; };
+		F14CC44F1D6C4F33001CCEBF /* Other in Resources */ = {isa = PBXBuildFile; fileRef = F14CC44B1D6C4F33001CCEBF /* Other */; };
+		F14CC4501D6C4F33001CCEBF /* Views in Resources */ = {isa = PBXBuildFile; fileRef = F14CC44C1D6C4F33001CCEBF /* Views */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,10 @@
 		F113D9D91D6C259500914925 /* JinAnJianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JinAnJianUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F113D9DD1D6C259500914925 /* JinAnJianUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JinAnJianUITests.m; sourceTree = "<group>"; };
 		F113D9DF1D6C259500914925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F14CC4491D6C4F33001CCEBF /* Controller */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Controller; sourceTree = SOURCE_ROOT; };
+		F14CC44A1D6C4F33001CCEBF /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = SOURCE_ROOT; };
+		F14CC44B1D6C4F33001CCEBF /* Other */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Other; sourceTree = SOURCE_ROOT; };
+		F14CC44C1D6C4F33001CCEBF /* Views */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Views; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,14 +133,10 @@
 		F113D9B71D6C259500914925 /* JinAnJian */ = {
 			isa = PBXGroup;
 			children = (
-				F113D9BB1D6C259500914925 /* AppDelegate.h */,
-				F113D9BC1D6C259500914925 /* AppDelegate.m */,
-				F113D9BE1D6C259500914925 /* ViewController.h */,
-				F113D9BF1D6C259500914925 /* ViewController.m */,
-				F113D9C11D6C259500914925 /* Main.storyboard */,
-				F113D9C41D6C259500914925 /* Assets.xcassets */,
-				F113D9C61D6C259500914925 /* LaunchScreen.storyboard */,
-				F113D9C91D6C259500914925 /* Info.plist */,
+				F14CC4491D6C4F33001CCEBF /* Controller */,
+				F14CC44A1D6C4F33001CCEBF /* Model */,
+				F14CC44B1D6C4F33001CCEBF /* Other */,
+				F14CC44C1D6C4F33001CCEBF /* Views */,
 				F113D9B81D6C259500914925 /* Supporting Files */,
 			);
 			path = JinAnJian;
@@ -141,6 +145,14 @@
 		F113D9B81D6C259500914925 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F113D9BB1D6C259500914925 /* AppDelegate.h */,
+				F113D9BC1D6C259500914925 /* AppDelegate.m */,
+				F113D9BE1D6C259500914925 /* ViewController.h */,
+				F113D9BF1D6C259500914925 /* ViewController.m */,
+				F113D9C11D6C259500914925 /* Main.storyboard */,
+				F113D9C41D6C259500914925 /* Assets.xcassets */,
+				F113D9C61D6C259500914925 /* LaunchScreen.storyboard */,
+				F113D9C91D6C259500914925 /* Info.plist */,
 				F113D9B91D6C259500914925 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -270,9 +282,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F14CC44E1D6C4F33001CCEBF /* Model in Resources */,
 				F113D9C81D6C259500914925 /* LaunchScreen.storyboard in Resources */,
 				F113D9C51D6C259500914925 /* Assets.xcassets in Resources */,
+				F14CC44F1D6C4F33001CCEBF /* Other in Resources */,
+				F14CC44D1D6C4F33001CCEBF /* Controller in Resources */,
 				F113D9C31D6C259500914925 /* Main.storyboard in Resources */,
+				F14CC4501D6C4F33001CCEBF /* Views in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
