@@ -106,19 +106,20 @@
     UINavigationController *nav1 = [[UINavigationController alloc] initWithRootViewController:VC1];
     
     //    InfoViewController *VC2 = [[InfoViewController alloc] init];
-    JZOnSiteViewController *VC2 = [[JZOnSiteViewController alloc] init];
+    JZMerchantViewController *VC2 = [[JZMerchantViewController alloc] init];
     UINavigationController *nav2 = [[UINavigationController alloc] initWithRootViewController:VC2];
-    JZMerchantViewController *VC3 = [[JZMerchantViewController alloc] init];
+    JZOnSiteViewController *VC3 = [[JZOnSiteViewController alloc] init];
     UINavigationController *nav3 = [[UINavigationController alloc] initWithRootViewController:VC3];
-    MineViewController *VC4 = [[MineViewController alloc] init];
+    MoreViewController *VC4 = [[MoreViewController alloc] init];
     UINavigationController *nav4 = [[UINavigationController alloc] initWithRootViewController:VC4];
-    MoreViewController *VC5 = [[MoreViewController alloc] init];
+    MineViewController *VC5 = [[MineViewController alloc] init];
     UINavigationController *nav5 = [[UINavigationController alloc] initWithRootViewController:VC5];
-    VC1.title = @"团购";
-    VC2.title = @"上门";
-    VC3.title = @"商家";
-    VC4.title = @"我的";
-    VC5.title = @"更多";
+
+    VC1.title = @"食药";
+    VC2.title = @"厂家";
+    VC3.title = @"附近";
+    VC4.title = @"贴士";
+    VC5.title = @"账户";
     //2.
     NSArray *viewCtrs = @[nav1,nav2,nav3,nav4,nav5];
     //3.
@@ -131,6 +132,7 @@
     
     //6.
     UITabBar *tabbar = self.rootTabbarCtr.tabBar;
+//    tabbar.backgroundColor = [UIColor redColor];
     UITabBarItem *item1 = [tabbar.items objectAtIndex:0];
     UITabBarItem *item2 = [tabbar.items objectAtIndex:1];
     UITabBarItem *item3 = [tabbar.items objectAtIndex:2];
@@ -139,17 +141,17 @@
     
     item1.selectedImage = [[UIImage imageNamed:@"icon_tabbar_homepage_selected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     item1.image = [[UIImage imageNamed:@"icon_tabbar_homepage"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    item2.selectedImage = [[UIImage imageNamed:@"icon_tabbar_onsite_selected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    item2.image = [[UIImage imageNamed:@"icon_tabbar_onsite"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    item3.selectedImage = [[UIImage imageNamed:@"icon_tabbar_onsite_selected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    item3.image = [[UIImage imageNamed:@"icon_tabbar_onsite"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     //    item2.imageInsets = UIEdgeInsetsMake(6, 0, -6, 0);
-    item3.selectedImage = [[UIImage imageNamed:@"icon_tabbar_merchant_selected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    item3.image = [[UIImage imageNamed:@"icon_tabbar_merchant_normal"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    item2.selectedImage = [[UIImage imageNamed:@"icon_tabbar_merchant_selected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    item2.image = [[UIImage imageNamed:@"icon_tabbar_merchant_normal"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     //    item3.imageInsets = UIEdgeInsetsMake(6, 0, -6, 0);
-    item4.selectedImage = [[UIImage imageNamed:@"icon_tabbar_mine_selected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    item4.image = [[UIImage imageNamed:@"icon_tabbar_mine"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    item5.selectedImage = [[UIImage imageNamed:@"icon_tabbar_mine_selected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    item5.image = [[UIImage imageNamed:@"icon_tabbar_mine"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     //    item4.imageInsets = UIEdgeInsetsMake(6, 0, -6, 0);
-    item5.selectedImage = [[UIImage imageNamed:@"icon_tabbar_misc_selected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    item5.image = [[UIImage imageNamed:@"icon_tabbar_misc"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    item4.selectedImage = [[UIImage imageNamed:@"icon_tabbar_misc_selected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    item4.image = [[UIImage imageNamed:@"icon_tabbar_misc"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     //    item5.imageInsets = UIEdgeInsetsMake(6, 0, -6, 0);
     
 //    //改变UITabBarItem字体颜色

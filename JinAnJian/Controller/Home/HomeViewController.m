@@ -18,8 +18,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.view.backgroundColor = [UIColor whiteColor];
-    [self.navigationController setNavigationBarHidden:YES animated:YES];
+    self.view.backgroundColor = [UIColor groupTableViewBackgroundColor];
+    
+//    [self.navigationController setNavigationBarHidden:YES animated:YES];
     
     
 }
