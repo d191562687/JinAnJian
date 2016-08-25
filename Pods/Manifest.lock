@@ -22,6 +22,7 @@ PODS:
   - SDWebImage/Core (3.8.1)
   - SVProgressHUD (2.0.3)
   - UMengAnalytics (4.1.0)
+  - ZXPAutoLayout (2.0.0)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
@@ -31,6 +32,7 @@ DEPENDENCIES:
   - SDWebImage (~> 3.8.1)
   - SVProgressHUD
   - UMengAnalytics
+  - ZXPAutoLayout (~> 2.0.0)
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
@@ -40,7 +42,8 @@ SPEC CHECKSUMS:
   SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
   SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
   UMengAnalytics: 19b28253793d77dff10fb7d502faad1fb6b8ce4a
+  ZXPAutoLayout: 2f3bc9031705d2d447330f469c0f367c0591bd2f
 
-PODFILE CHECKSUM: 7e59a472fa407b873d59f1588e29587cf7af0e70
+PODFILE CHECKSUM: a95a031bcc399e8515efe0b05c005df8e5073d2c
 
 COCOAPODS: 1.0.1

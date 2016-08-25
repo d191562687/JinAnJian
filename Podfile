@@ -10,7 +10,7 @@ pod 'MJRefresh'
 pod 'MJExtension'
 pod 'SVProgressHUD'
 pod 'UMengAnalytics'
-
+pod 'ZXPAutoLayout', '~> 2.0.0'
 
 end
 
