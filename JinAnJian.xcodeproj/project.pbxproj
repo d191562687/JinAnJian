@@ -136,6 +136,13 @@
 		F13619761D6D371900D1A949 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F13619751D6D371900D1A949 /* MoreViewController.m */; };
 		F183A9041D6D2A8F008F73C1 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F183A9031D6D2A8F008F73C1 /* MineViewController.m */; };
 		F183A9051D6D2A8F008F73C1 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F183A9031D6D2A8F008F73C1 /* MineViewController.m */; };
+		F1C994201D6FE1EC006E1B68 /* companysearch@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1C9941F1D6FE1EC006E1B68 /* companysearch@1x.png */; };
+		F1C994221D6FE1FD006E1B68 /* companysearch@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1C994211D6FE1FD006E1B68 /* companysearch@1x.png */; };
+		F1C994241D6FE32A006E1B68 /* Location.png in Resources */ = {isa = PBXBuildFile; fileRef = F1C994231D6FE32A006E1B68 /* Location.png */; };
+		F1C994261D6FE435006E1B68 /* 反馈.png in Resources */ = {isa = PBXBuildFile; fileRef = F1C994251D6FE435006E1B68 /* 反馈.png */; };
+		F1C994281D6FE4CF006E1B68 /* 四品一械查询.png in Resources */ = {isa = PBXBuildFile; fileRef = F1C994271D6FE4CF006E1B68 /* 四品一械查询.png */; };
+		F1C9942A1D6FE5F7006E1B68 /* tips.png in Resources */ = {isa = PBXBuildFile; fileRef = F1C994291D6FE5F7006E1B68 /* tips.png */; };
+		F1C9942C1D6FE656006E1B68 /* cloud@2x@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1C9942B1D6FE656006E1B68 /* cloud@2x@2x.png */; };
 		F1E3090D1D6D88D30031E9E0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1E308F31D6D88D30031E9E0 /* Info.plist */; };
 		F1E3090E1D6D88D30031E9E0 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E308F51D6D88D30031E9E0 /* MASCompositeConstraint.m */; };
 		F1E3090F1D6D88D30031E9E0 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E308F81D6D88D30031E9E0 /* MASConstraint.m */; };
@@ -315,6 +322,13 @@
 		F13619751D6D371900D1A949 /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
 		F183A9021D6D2A8F008F73C1 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
 		F183A9031D6D2A8F008F73C1 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		F1C9941F1D6FE1EC006E1B68 /* companysearch@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "companysearch@1x.png"; sourceTree = "<group>"; };
+		F1C994211D6FE1FD006E1B68 /* companysearch@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "companysearch@1x.png"; sourceTree = "<group>"; };
+		F1C994231D6FE32A006E1B68 /* Location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Location.png; sourceTree = "<group>"; };
+		F1C994251D6FE435006E1B68 /* 反馈.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "反馈.png"; sourceTree = "<group>"; };
+		F1C994271D6FE4CF006E1B68 /* 四品一械查询.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "四品一械查询.png"; sourceTree = "<group>"; };
+		F1C994291D6FE5F7006E1B68 /* tips.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tips.png; sourceTree = "<group>"; };
+		F1C9942B1D6FE656006E1B68 /* cloud@2x@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cloud@2x@2x.png"; sourceTree = "<group>"; };
 		F1E308F31D6D88D30031E9E0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1E308F41D6D88D30031E9E0 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
 		F1E308F51D6D88D30031E9E0 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
@@ -539,6 +553,7 @@
 		F136186F1D6D30E600D1A949 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				F1C9941F1D6FE1EC006E1B68 /* companysearch@1x.png */,
 				F13618701D6D30E600D1A949 /* back@2x.png */,
 				F13618711D6D30E600D1A949 /* background_home_searchBar@2x.png */,
 				F13618721D6D30E600D1A949 /* bg_customReview_image_default.png */,
@@ -671,6 +686,12 @@
 		F13618D81D6D30E600D1A949 /* tabbar */ = {
 			isa = PBXGroup;
 			children = (
+				F1C9942B1D6FE656006E1B68 /* cloud@2x@2x.png */,
+				F1C994291D6FE5F7006E1B68 /* tips.png */,
+				F1C994271D6FE4CF006E1B68 /* 四品一械查询.png */,
+				F1C994251D6FE435006E1B68 /* 反馈.png */,
+				F1C994231D6FE32A006E1B68 /* Location.png */,
+				F1C994211D6FE1FD006E1B68 /* companysearch@1x.png */,
 				F13618D91D6D30E600D1A949 /* icon_tabbar_homepage@2x.png */,
 				F13618DA1D6D30E600D1A949 /* icon_tabbar_homepage_selected@2x.png */,
 				F13618DB1D6D30E600D1A949 /* icon_tabbar_merchant_normal@2x.png */,
@@ -979,12 +1000,15 @@
 				F13619011D6D30E700D1A949 /* icon_deal_anytime_refund@2x.png in Resources */,
 				F13619321D6D30E700D1A949 /* icon_rating_star_half.png in Resources */,
 				F13619461D6D30E700D1A949 /* icon_mine_level3@2x.png in Resources */,
+				F1C994201D6FE1EC006E1B68 /* companysearch@1x.png in Resources */,
 				F13619281D6D30E700D1A949 /* icon_arrow_dropdown_normal.png in Resources */,
 				F136190F1D6D30E700D1A949 /* icon_homepage_movieCategory.png in Resources */,
 				F113D9C81D6C259500914925 /* LaunchScreen.storyboard in Resources */,
 				F13619621D6D30E700D1A949 /* icon_tabbar_mine@2x.png in Resources */,
 				F136195C1D6D30E700D1A949 /* icon_listheader_animation_1@2x.png in Resources */,
 				F13619331D6D30E700D1A949 /* icon_rating_star_not_picked.png in Resources */,
+				F1C994261D6FE435006E1B68 /* 反馈.png in Resources */,
+				F1C9942C1D6FE656006E1B68 /* cloud@2x@2x.png in Resources */,
 				F13619081D6D30E700D1A949 /* icon_homepage_hotelCategory.png in Resources */,
 				F136193F1D6D30E700D1A949 /* icon_mine_current_points@2x.png in Resources */,
 				F136192E1D6D30E700D1A949 /* icon_feedCell_star_half@2x.png in Resources */,
@@ -1000,6 +1024,7 @@
 				F13619261D6D30E700D1A949 /* location_yes@2x.png in Resources */,
 				F136195D1D6D30E700D1A949 /* icon_listheader_animation_2@2x.png in Resources */,
 				F13619381D6D30E700D1A949 /* icon_search_suggest@2x.png in Resources */,
+				F1C994281D6FE4CF006E1B68 /* 四品一械查询.png in Resources */,
 				F13619511D6D30E700D1A949 /* icon_mine_onsite@2x.png in Resources */,
 				F136193D1D6D30E700D1A949 /* icon_mine_comment@2x.png in Resources */,
 				F13619171D6D30E700D1A949 /* todaySpecialHeaderTitleImage@3x.png in Resources */,
@@ -1043,7 +1068,9 @@
 				F13619581D6D30E700D1A949 /* icon_myCoupon_disabled.png in Resources */,
 				F136192A1D6D30E700D1A949 /* icon_deal_phone@2x.png in Resources */,
 				F136195E1D6D30E700D1A949 /* icon_tabbar_homepage@2x.png in Resources */,
+				F1C994241D6FE32A006E1B68 /* Location.png in Resources */,
 				F13619191D6D30E700D1A949 /* m1.jpg in Resources */,
+				F1C994221D6FE1FD006E1B68 /* companysearch@1x.png in Resources */,
 				F13619221D6D30E700D1A949 /* icon_map_cateid_78.png in Resources */,
 				F13618FF1D6D30E700D1A949 /* icon_collect.png in Resources */,
 				F13619311D6D30E700D1A949 /* icon_merchant_location.png in Resources */,
@@ -1060,6 +1087,7 @@
 				F13619431D6D30E700D1A949 /* icon_mine_doyen@2x.png in Resources */,
 				F13619041D6D30E700D1A949 /* icon_homepage_downArrow@2x.png in Resources */,
 				F13619201D6D30E700D1A949 /* icon_map_cateid_4.png in Resources */,
+				F1C9942A1D6FE5F7006E1B68 /* tips.png in Resources */,
 				F136191C1D6D30E700D1A949 /* icon_map_cateid_2.png in Resources */,
 				F136194C1D6D30E700D1A949 /* icon_mine_myAccount_password@2x.png in Resources */,
 				F13618FB1D6D30E700D1A949 /* background_home_searchBar@2x.png in Resources */,

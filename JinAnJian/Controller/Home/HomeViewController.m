@@ -58,21 +58,23 @@
     view1.layer.cornerRadius = 8;
     view1.layer.masksToBounds = YES;
     //给图层添加一个有色边框
-    view1.layer.borderWidth = 5;
+    view1.layer.borderWidth = 2;
     view1.layer.borderColor = [[UIColor colorWithRed:0.50 green:0.50 blue:0.50 alpha:1] CGColor];
-    view1.backgroundColor = [UIColor groupTableViewBackgroundColor];
-    
-//    UIImageView *imageView = [[UIImageView alloc]initWithFrame:CGRectMake(view1.frame.size.width * 0.5, view1.frame.size.height * 0.5, view1.frame.size.width * 0.9, view1.frame.size.height * 0.9)];
-    UIImageView *imageView = [[UIImageView alloc]init];
-    imageView.image = [UIImage imageNamed:@"merchant_1.png"];
-    imageView.contentMode =  UIViewContentModeCenter;
-    imageView.contentMode =  UIViewContentModeScaleAspectFill;
-    
-    
-    [view1 addSubview:imageView];
-    
-    
     [stackView addSubview:view1];
+    
+    UIImage *pic1 = [ UIImage imageNamed:@"companysearch@1x.png"];
+    UIImageView *imageView1   = [[UIImageView alloc] initWithFrame:CGRectMake(50,45, 90, 80 )];
+    [imageView1 setImage:pic1];
+    [imageView1 setContentScaleFactor:[[UIScreen mainScreen] scale]];
+    imageView1.contentMode =  UIViewContentModeScaleAspectFit;
+    imageView1.clipsToBounds  = YES;
+    [view1 addSubview:imageView1];
+    
+    UILabel * Label1 = [[UILabel alloc]initWithFrame:CGRectMake(45, 100, 200, 100)];
+    Label1.text = @"企业信息查询";
+    [view1 addSubview:Label1];
+    
+    
 
     
     
@@ -81,10 +83,24 @@
     view2.layer.cornerRadius = 8;
     view2.layer.masksToBounds = YES;
     //给图层添加一个有色边框
-    view2.layer.borderWidth = 5;
+    view2.layer.borderWidth = 2;
     view2.layer.borderColor = [[UIColor colorWithRed:0.50 green:0.50 blue:0.50 alpha:1] CGColor];
     [stackView addSubview:view2];
     view2.backgroundColor = [UIColor whiteColor];
+    
+    UIImage *pic2 = [ UIImage imageNamed:@"Location.png"];
+    UIImageView *imageView2   = [[UIImageView alloc] initWithFrame:CGRectMake(45,45, 90, 80 )];
+    [imageView2 setImage:pic2];
+    [imageView2 setContentScaleFactor:[[UIScreen mainScreen] scale]];
+    imageView2.contentMode =  UIViewContentModeScaleAspectFit;
+    imageView2.clipsToBounds  = YES;
+    [view2 addSubview:imageView2];
+    
+    UILabel * Label2 = [[UILabel alloc]initWithFrame:CGRectMake(60, 100, 200, 100)];
+    Label2.text = @"地图定位";
+    [view2 addSubview:Label2];
+    
+    
     
     
     UIView *view3 = [UIView new];
@@ -92,10 +108,24 @@
     view3.layer.cornerRadius = 8;
     view3.layer.masksToBounds = YES;
     //给图层添加一个有色边框
-    view3.layer.borderWidth = 5;
+    view3.layer.borderWidth = 2;
     view3.layer.borderColor = [[UIColor colorWithRed:0.50 green:0.50 blue:0.50 alpha:1] CGColor];
     [stackView addSubview:view3];
     view3.backgroundColor = [UIColor whiteColor];
+    
+    UIImage *pic3 = [ UIImage imageNamed:@"反馈.png"];
+    UIImageView *imageView3   = [[UIImageView alloc] initWithFrame:CGRectMake(50,45, 90, 80 )];
+    [imageView3 setImage:pic3];
+    [imageView3 setContentScaleFactor:[[UIScreen mainScreen] scale]];
+    imageView3.contentMode =  UIViewContentModeScaleAspectFit;
+    imageView3.clipsToBounds  = YES;
+    [view3 addSubview:imageView3];
+    
+    UILabel * Label3 = [[UILabel alloc]initWithFrame:CGRectMake(40, 100, 200, 100)];
+    Label3.text = @"药食风险反馈";
+    [view3 addSubview:Label3];
+    
+    
     
     //stack的内边距
     stackView.padding = UIEdgeInsetsMake(10, 10, 10,10);
@@ -134,30 +164,75 @@
     view11.layer.cornerRadius = 8;
     view11.layer.masksToBounds = YES;
     //给图层添加一个有色边框
-    view11.layer.borderWidth = 5;
+    view11.layer.borderWidth = 2;
     view11.layer.borderColor = [[UIColor colorWithRed:0.50 green:0.50 blue:0.50 alpha:1] CGColor];
     [stackView1 addSubview:view11];
     view11.backgroundColor = [UIColor whiteColor];
+    
+    UIImage *pic11 = [ UIImage imageNamed:@"四品一械查询.png"];
+    UIImageView *imageView11   = [[UIImageView alloc] initWithFrame:CGRectMake(50,45, 90, 80 )];
+    [imageView11 setImage:pic11];
+    [imageView11 setContentScaleFactor:[[UIScreen mainScreen] scale]];
+    imageView11.contentMode =  UIViewContentModeScaleAspectFit;
+    imageView11.clipsToBounds  = YES;
+    [view11 addSubview:imageView11];
+    
+    UILabel * Label11 = [[UILabel alloc]initWithFrame:CGRectMake(40, 100, 200, 100)];
+    Label11.text = @"四品一械查询";
+    [view11 addSubview:Label11];
+    
+    
+    
     
     UIView *view22 = [UIView new];
     //圆角设置
     view22.layer.cornerRadius = 8;
     view22.layer.masksToBounds = YES;
     //给图层添加一个有色边框
-    view22.layer.borderWidth = 5;
+    view22.layer.borderWidth = 2;
     view22.layer.borderColor = [[UIColor colorWithRed:0.50 green:0.50 blue:0.50 alpha:1] CGColor];
     [stackView1 addSubview:view22];
     view22.backgroundColor = [UIColor whiteColor];
+    
+    UIImage *pic22 = [ UIImage imageNamed:@"tips.png"];
+    UIImageView *imageView22   = [[UIImageView alloc] initWithFrame:CGRectMake(45,45, 90, 80 )];
+    [imageView22 setImage:pic22];
+    [imageView22 setContentScaleFactor:[[UIScreen mainScreen] scale]];
+    imageView22.contentMode =  UIViewContentModeScaleAspectFit;
+    imageView22.clipsToBounds  = YES;
+    [view22 addSubview:imageView22];
+    
+    UILabel * Label22 = [[UILabel alloc]initWithFrame:CGRectMake(75, 100, 200, 100)];
+    Label22.text = @"贴士";
+    [view22 addSubview:Label22];
+
+    
+    
     
     UIView *view33 = [UIView new];
     //圆角设置
     view33.layer.cornerRadius = 8;
     view33.layer.masksToBounds = YES;
     //给图层添加一个有色边框
-    view33.layer.borderWidth = 5;
+    view33.layer.borderWidth = 2;
     view33.layer.borderColor = [[UIColor colorWithRed:0.50 green:0.50 blue:0.50 alpha:1] CGColor];
     [stackView1 addSubview:view33];
     view33.backgroundColor = [UIColor whiteColor];
+    
+    UIImage *pic33 = [ UIImage imageNamed:@"cloud@2x@2x.png"];
+    UIImageView *imageView33   = [[UIImageView alloc] initWithFrame:CGRectMake(45,45, 90, 80 )];
+    [imageView33 setImage:pic33];
+    [imageView33 setContentScaleFactor:[[UIScreen mainScreen] scale]];
+    imageView33.contentMode =  UIViewContentModeScaleAspectFit;
+    imageView33.clipsToBounds  = YES;
+    [view33 addSubview:imageView33];
+    
+    UILabel * Label33 = [[UILabel alloc]initWithFrame:CGRectMake(65, 100, 200, 100)];
+    Label33.text = @"云助手";
+    [view33 addSubview:Label33];
+
+    
+    
     
     //stack的内边距
     stackView1.padding = UIEdgeInsetsMake(10, 10, 10,10);
